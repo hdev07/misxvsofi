@@ -1,6 +1,15 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from "nuxt";
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-
-})
+  css: [
+    "@/assets/css/tailwind.css",
+    "vuetify/lib/styles/main.sass",
+    "mdi/css/materialdesignicons.min.css",
+  ],
+  build: {
+    postcss: {
+      postcssOptions: require("./postcss.config.js"),
+    },
+    transpile: ["vuetify"],
+  },
+});
