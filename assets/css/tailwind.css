@@ -3,13 +3,33 @@
 @tailwind utilities;
 
 .bg-img {
-    background-image: url("../img/Header.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/Header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-*{
-    color: white;
-    text-align: center;
+* {
+  color: white;
+  text-align: center;
+}
+
+/* Scrollbar custom */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #29a7ca33;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+*::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
 }
