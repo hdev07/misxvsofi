@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <div v-if="spin" class="loading show">
+    <!-- <div v-if="spin" class="loading show">
       <div class="spin"></div>
-    </div>
+    </div> -->
     <Home />
   </v-app>
 </template>
@@ -10,25 +10,25 @@
 import Home from "./components/home.vue";
 export default {
   components: { Home },
-  data() {
-    return {
-      spin: true,
-    };
-  },
-  mounted() {
-    this.loading();
-  },
-  methods: {
-    loading() {
-      setTimeout(() => {
-        this.spin = false;
-      }, 400);
-    },
-  },
+  // data() {
+  //   return {
+  //     spin: true,
+  //   };
+  // },
+  // mounted() {
+  //   this.loading();
+  // },
+  // methods: {
+  //   loading() {
+  //     setTimeout(() => {
+  //       this.spin = false;
+  //     }, 400);
+  //   },
+  // },
 };
 </script>
 <style>
-.loading {
+/* .loading {
   position: fixed;
   top: 0;
   left: 0;
@@ -57,5 +57,5 @@ export default {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 </style>
