@@ -1,10 +1,11 @@
 <template>
   <div class="pt-8">
-    <div>
-      <img src="../assets/img/Frase.jpeg" alt="" />
-      <p class="z-20 -mb-12">
-        Porque los momentos más importantes, merecen ser compartidos.
-      </p>
+    <div class="h-60 w-screen bg-img-frase">
+      <div class="flex justify-center">
+        <p class="text-2xl text-center mt-24">
+          "Porque los momentos más importantes, merecen ser compartidos."
+        </p>
+      </div>
     </div>
   </div>
 </template>

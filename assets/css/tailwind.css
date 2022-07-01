@@ -9,8 +9,16 @@
   background-size: cover;
 }
 
+.bg-img-frase {
+  background-image: url("../assets/img/Frase.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 * {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Moonrocks', cursive;
+  /* font-family: 'Josefin Slab', serif; */
   color: white;
 }
 
