@@ -10,8 +10,12 @@
 }
 
 * {
+  font-family: 'Josefin Slab', serif;
   color: white;
-  text-align: center;
+}
+
+#home p{
+  font-family: 'Rubik Moonrocks', cursive;
 }
 
 /* Scrollbar custom */

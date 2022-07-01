@@ -1,25 +1,25 @@
 <template>
-  <div class="h-screen w-screen bg-img flex justify-center">
-    <div class="z-10 bottom-5 absolute p-4">
-      <h1 class="text-xl text-center">Sofía</h1>
-      <h1 class="text-xl text-center">Mis XV Años</h1>
-      <h1 v-if="message === true">¡YA EMPEZÓ!</h1>
-      <div v-else class="grid-cols-4 flex">
-        <div class="px-2">
-          <h1>{{ remainDays }}</h1>
-          <p>Dias</p>
+  <div id="home" class="h-screen w-screen bg-img flex justify-center">
+    <div class="z-10 top-96 absolute p-4 mt-8">
+      <p class="text-4xl text-center m-4 mb-12">Sofía</p>
+      <p class="text-6xl text-center">Mis XV Años</p>
+      <p v-if="message === true">¡YA EMPEZÓ!</p>
+      <div v-else class="grid-cols-4 flex justify-center">
+        <div class="px-2 pt-8">
+          <p class="text-center text-3xl">{{ remainDays }}</p>
+          <p class="text-center text-2xl">Dias</p>
         </div>
-        <div class="px-2">
-          <h1>{{ remainHours }}</h1>
-          <p>Horas</p>
+        <div class="px-2 pt-8">
+          <p class="text-center text-3xl">{{ remainHours }}</p>
+          <p class="text-center text-2xl">Horas</p>
         </div>
-        <div class="px-2">
-          <h1>{{ remainMinutes }}</h1>
-          <p>Minutos</p>
+        <div class="px-2 pt-8">
+          <p class="text-center text-3xl">{{ remainMinutes }}</p>
+          <p class="text-center text-2xl">Minutos</p>
         </div>
-        <div class="px-2">
-          <h1>{{ remainSeconds }}</h1>
-          <p>Segundos</p>
+        <div class="px-2 pt-8">
+          <p class="text-center text-3xl">{{ remainSeconds }}</p>
+          <p class="text-center text-2xl">Segundos</p>
         </div>
       </div>
     </div>
