@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="h-screen w-screen bg-img flex justify-center">
     <div class="z-10 top-96 absolute p-4 mt-8">
-      <p class="text-4xl text-center m-4 mb-12">Sofía</p>
+      <p class="text-4xl text-center m-4 mb-12 font-bold text-uppercase">Sofía</p>
       <p class="text-6xl text-center">Mis XV Años</p>
       <p v-if="message === true">¡YA EMPEZÓ!</p>
       <div v-else class="grid-cols-4 flex justify-center">
@@ -38,7 +38,7 @@ export default {
     };
   },
   mounted() {
-    this.getDate("Dec 3 2022 20:00:00 GMT-0600");
+    this.getDate("Dec 3 2022 18:00:00 GMT-0600");
   },
   methods: {
     getDate(deadline) {
