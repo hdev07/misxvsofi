@@ -40,9 +40,6 @@ export default defineNuxtConfig({
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
   },
   link: [
     {
