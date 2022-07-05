@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       { name: 'msapplication-TileColor', content: '#00C4B3' },
       {
         name: 'msapplication-TileImage',
-        content: '/favicons/ms-icon-144x144.png'
+        content: '/'
       },
       // Facebook
       { property: 'author', content: 'misxvsofi' },
