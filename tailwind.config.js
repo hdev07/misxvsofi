@@ -9,7 +9,6 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./*.{vue,js,ts}",
     "./nuxt.config.{js,ts}",
-    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     screens: {
@@ -56,7 +55,4 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [
-    require('flowbite/plugin')
-  ]
 };
