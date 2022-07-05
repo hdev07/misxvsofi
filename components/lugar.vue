@@ -1,29 +1,27 @@
 <template>
   <div class="my-8">
     <div class="flex justify-center my-4">
-      <p class="text-center font-bold text-gray-800 text-4xl">Dónde & Cuándo</p>
+      <p class="text-center font-bold text-4xl">Dónde & Cuándo</p>
     </div>
     <div class="flex justify-center px-4 m-2 pb-4">
       <a class="block p-6 max-w-sm rounded-lg border border-gray-300 shadow-md">
         <div>
-          <p class="mb-6 text-3xl text-gray-800 text-center">Ceremonia Religiosa</p>
+          <p class="mb-6 text-3xl text-center">Ceremonia Religiosa</p>
           <img
             class="rounded-lg shadow-md mb-6"
             src="https://picsum.photos/600/300"
             alt=""
           />
-          <p class="mb-2 text-1xl text-gray-800 text-uppercase">
-            Parroquia san francisco
-          </p>
+          <p class="mb-2 text-1xl text-uppercase">Parroquia san francisco</p>
         </div>
         <div class="flex text-justify">
-          <p class="text-gray-800 font-bold">Cuándo:&nbsp;</p>
-          <p class="text-gray-800 text-right">3 de diciembre del 2022 a las 18:00 hrs.</p>
+          <p class="font-bold">Cuándo:&nbsp;</p>
+          <p class="text-right">3 de diciembre del 2022 a las 18:00 hrs.</p>
         </div>
         <br />
         <div class="flex text-justify">
-          <p class="text-gray-800 font-bold">Dirección:&nbsp;</p>
-          <p class="text-gray-800 text-right">
+          <p class="font-bold">Dirección:&nbsp;</p>
+          <p class="text-right">
             Mariano Arista 200, San Francisco, 42000 Pachuca de Soto, Hgo.
           </p>
         </div>
@@ -50,7 +48,7 @@
           </button>
           <button
             type="button"
-            class="w-full flex justify-center text-center text-gray-800 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2"
+            class="w-full flex justify-center text-center bg-white hover:bg-gray-100 border border-gray-200 focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2"
           >
             <svg
               class="h-4 mr-2 -ml-1 w-8"
@@ -78,11 +76,11 @@
               <div class="relative bg-white rounded-lg shadow">
                 <!-- Modal header -->
                 <div class="flex justify-between items-start p-4 rounded-t border-b">
-                  <h3 class="text-xl font-semibold text-gray-800">Ubicación</h3>
+                  <h3 class="text-xl font-semibold">Ubicación</h3>
                   <button
                     @click="showModal"
                     type="button"
-                    class="text-gray-800 bg-transparent hover:bg-gray-200 hover:text-gray-800 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
+                    class="bg-transparent hover:bg-gray-200 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
                   >
                     <svg
                       class="w-5 h-5"
@@ -100,12 +98,12 @@
                 </div>
                 <!-- Modal body -->
                 <div class="p-6 space-y-6">
-                  <p class="text-base leading-relaxed text-gray-800">
+                  <p class="text-base leading-relaxed">
                     With less than a month to go before the European Union enacts new
                     consumer privacy laws for its citizens, companies around the world are
                     updating their terms of service agreements to comply.
                   </p>
-                  <p class="text-base leading-relaxed text-gray-800">
+                  <p class="text-base leading-relaxed">
                     The European Union’s General Data Protection Regulation (G.D.P.R.)
                     goes into effect on May 25 and is meant to ensure a common set of data
                     rights in the European Union. It requires organizations to notify
@@ -124,13 +122,6 @@
                   >
                     I accept
                   </button>
-                  <button
-                    @click="showModal"
-                    type="button"
-                    class="text-gray-800 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-800 focus:z-10"
-                  >
-                    Decline
-                  </button>
                 </div>
               </div>
             </div>
@@ -141,22 +132,22 @@
     <div class="flex justify-center px-4 m-2">
       <a class="block p-6 max-w-sm rounded-lg border border-gray-300 shadow-md">
         <div>
-          <p class="mb-6 text-3xl text-gray-800 text-center">Recepción</p>
+          <p class="mb-6 text-3xl text-center">Recepción</p>
           <img
             class="rounded-lg shadow-md mb-6"
             src="https://picsum.photos/601/300"
             alt=""
           />
-          <p class="mb-2 text-1xl text-gray-800 text-uppercase">Salón Benevento</p>
+          <p class="mb-2 text-1xl text-uppercase">Salón Benevento</p>
         </div>
         <div class="flex text-justify">
-          <p class="text-gray-800 font-bold">Cuándo:&nbsp;</p>
-          <p class="text-gray-800 text-right">3 de diciembre del 2022 a las 20:00 hrs.</p>
+          <p class="font-bold">Cuándo:&nbsp;</p>
+          <p class="text-right">3 de diciembre del 2022 a las 20:00 hrs.</p>
         </div>
         <br />
         <div class="flex text-justify">
-          <p class="text-gray-800 font-bold">Dirección:&nbsp;</p>
-          <p class="text-gray-800 text-right">
+          <p class="font-bold">Dirección:&nbsp;</p>
+          <p class="text-right">
             Km 2.1, Blvrd Ramón G. Bonfil, Zona Plateada, Pachuca de Soto, Hgo.
           </p>
         </div>
@@ -183,7 +174,7 @@
           </button>
           <button
             type="button"
-            class="w-full flex justify-center text-center text-gray-800 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2"
+            class="w-full flex justify-center text-center bg-white hover:bg-gray-100 border border-gray-200 focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2"
           >
             <svg
               class="h-4 mr-2 -ml-1 w-8"
@@ -211,11 +202,11 @@
               <div class="relative bg-white rounded-lg shadow">
                 <!-- Modal header -->
                 <div class="flex justify-between items-start p-4 rounded-t border-b">
-                  <h3 class="text-xl font-semibold text-gray-800">Ubicación</h3>
+                  <h3 class="text-xl font-semibold">Ubicación</h3>
                   <button
                     @click="showModal"
                     type="button"
-                    class="text-gray-800 bg-transparent hover:bg-gray-200 hover:text-gray-800 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
+                    class="bg-transparent hover:bg-gray-200 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
                   >
                     <svg
                       class="w-5 h-5"
@@ -233,12 +224,12 @@
                 </div>
                 <!-- Modal body -->
                 <div class="p-6 space-y-6">
-                  <p class="text-base leading-relaxed text-gray-800">
+                  <p class="text-base leading-relaxed">
                     With less than a month to go before the European Union enacts new
                     consumer privacy laws for its citizens, companies around the world are
                     updating their terms of service agreements to comply.
                   </p>
-                  <p class="text-base leading-relaxed text-gray-800">
+                  <p class="text-base leading-relaxed">
                     The European Union’s General Data Protection Regulation (G.D.P.R.)
                     goes into effect on May 25 and is meant to ensure a common set of data
                     rights in the European Union. It requires organizations to notify
@@ -256,13 +247,6 @@
                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                   >
                     I accept
-                  </button>
-                  <button
-                    @click="showModal"
-                    type="button"
-                    class="text-gray-800 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-800 focus:z-10"
-                  >
-                    Decline
                   </button>
                 </div>
               </div>
